@@ -11423,13 +11423,15 @@ body:before {
 
 .blurb-container{
   padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blurb{    
   margin: 30px 10%;
   position: relative;
   max-width: 40rem;
-  /* padding-bottom: 5%; */
   font-size: 1.2em;
   font-style: italic;
   font-family: var(--bs-font-sans-serif);
