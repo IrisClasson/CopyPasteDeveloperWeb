@@ -11341,7 +11341,7 @@ body:before {
 }
 .masthead .masthead-content {
   position: relative;
-  max-width: 40rem;
+  max-width: 60rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -11356,10 +11356,11 @@ body:before {
 }
 .masthead .masthead-content .input-group-newsletter input {
   height: auto;
-  width: 100%;
+  width: 70%;
   font-size: 1rem;
   padding: 1rem;
 }
+
 .masthead .masthead-content .input-group-newsletter button {
   font-size: 0.85rem;
   font-weight: 700;
