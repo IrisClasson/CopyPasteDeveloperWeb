@@ -235,12 +235,21 @@ sup {
   top: -0.5em;
 }
 
+.buy {
+  border: aliceblue;
+  border-style: dashed;
+  padding: 15px 10px;
+  border-color: #ffd638;
+  color: white;
+  background: #d1481f;
+}
+
 a {
-  color: #ffbc00;
+  color: #fff475;
   text-decoration: underline;
 }
 a:hover {
-  color: #224444;
+  color: #010101;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3030,13 +3039,13 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #91825c;
-  border-color: #685d41;
+  color: #000;
+  background-color: #ffd638;
+  border-color: #b1962a;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #b6a67f;
+  color: #000;
+  background-color: #f7db6a;
   border-color: #685d41;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -11299,7 +11308,7 @@ html {
 body {
   height: 100%;
   position: relative;
-  background: url("../assets/bg.png") no-repeat center center scroll #dfe3ee;
+  background: url("../assets/bg.png") no-repeat top center scroll #dfe3ee;
   background-size: cover;
 }
 body:before {
@@ -11315,7 +11324,7 @@ body:before {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-  background: url("../assets//mobile-bg.png") no-repeat left center scroll #dfe3ee;
+  background: url("../assets//mobile-bg.png") no-repeat center center scroll #dfe3ee;
 
     background-size: cover;
   }
@@ -11337,7 +11346,7 @@ body:before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #4b6680d6;
+  background-color: #534e77b5;
 }
 .masthead .masthead-content {
   position: relative;
@@ -11437,14 +11446,14 @@ body:before {
   font-style: italic;
   font-family: var(--bs-font-sans-serif);
   word-break: keep-all;
-  background-color: #4b6680d6;
+  background-color: #272138;
   color: #fff;
   border-radius: 15px;
   padding: 1em;
 }
 
 .testimonials{
-  background-color: #243442;
+  background-color: #42356b;
   padding: 2%;
   color: #dee2ed;
   font-style: italic;
