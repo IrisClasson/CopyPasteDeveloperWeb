@@ -11481,3 +11481,7 @@ body:before {
 #mc_embed_signup input.email{
  width: 55%;
 }
+
+.testimonials .col-md-6 {
+  padding: 20px;
+}
